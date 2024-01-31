@@ -1,0 +1,17 @@
+{
+	"name": "@shawnphoffman/prettier-config",
+	"version": "1.0.0",
+	"description": "Shared prettier config for my projects",
+	"license": "MIT",
+	"main": "index.js",
+	"scripts": {
+		"lint": "prettier --check {,*/**/}*.{js,json,md}",
+		"format": "prettier --write {,*/**/}*.{js,json,md}"
+	},
+	"peerDependencies": {
+		"prettier": "^3.0.3"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	}
+}
